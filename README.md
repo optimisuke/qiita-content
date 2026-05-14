@@ -2,7 +2,26 @@
 
 公式の [Qiita CLI](https://github.com/increments/qiita-cli) で管理している Qiita 記事リポジトリです。
 
-公開済みの Qiita 記事を `public/` 配下の Markdown ファイルとして管理しています。
+## 運用フロー
+
+記事の投稿・更新は **git push 経由** で行います。`npx qiita publish` での直接公開は基本使いません。
+
+```
+記事を編集 → git push → GitHub Actions が自動で Qiita に投稿・更新
+                              ↓
+                        git pull（updated_at が書き戻される）
+```
+
+公開後は Qiita 側で `updated_at` と `id` が更新され、Actions がその内容を commit して push し返します。
+**`git push` 後は必ず `git pull` でローカルを同期してください。** 同期しないと次回 push 時に衝突します。
+
+## 記事ファイルについて
+
+- 記事ファイルは `public/*.md` に保存されます
+- ファイル名は任意です。Qiita との紐づけは front matter の `id` フィールドで行われます
+- `id: null` で push すると新規記事として作成され、Qiita が採番した ID が Actions によって front matter に書き戻されます（ID は自分では決められません）
+- `public/.remote/` は Qiita CLI が生成する比較用データで、Git 管理からは除外しています
+- Markdown ファイルを削除しても Qiita 上の記事は削除されません。削除は Qiita 側で行います
 
 ## セットアップ
 
@@ -14,6 +33,12 @@ npx qiita login
 ```
 
 `npx qiita login` では、`read_qiita` と `write_qiita` 権限を持つ Qiita アクセストークンが必要です。
+
+GitHub Actions を動かすには、リポジトリの secret に以下を設定しておく必要があります。
+
+```text
+QIITA_TOKEN
+```
 
 ## よく使うコマンド
 
@@ -34,33 +59,3 @@ npx qiita preview
 ```bash
 npx qiita new article-file-name
 ```
-
-指定した記事を投稿または更新します（ローカル確認用。通常は git push 経由で公開してください）。
-
-```bash
-npx qiita publish article-file-name
-```
-
-変更された記事をまとめて投稿または更新します（ローカル確認用。通常は git push 経由で公開してください）。
-
-```bash
-npx qiita publish --all
-```
-
-## GitHub Actions
-
-`.github/workflows/publish.yml` で、`main` または `master` への push 時に記事を投稿・更新します。
-GitHub Actions の画面から手動実行することもできます。
-
-利用するには、リポジトリの secret に以下を設定しておく必要があります。
-
-```text
-QIITA_TOKEN
-```
-
-## 注意点
-
-- 記事ファイルは `public/*.md` に保存されます。
-- `public/.remote/` は Qiita CLI が生成する比較用データで、Git 管理からは除外しています。
-- Markdown ファイルを削除しても、Qiita 上の記事は削除されません。記事の削除は Qiita 側で行います。
-- 記事が公開されると Qiita 側で `updated_at` が更新されます。Actions 経由で公開した後は必ず `npx qiita pull` → `git pull` でローカルを同期してください。同期しないと次回 push 時に衝突する可能性があります。
