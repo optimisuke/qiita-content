@@ -35,13 +35,13 @@ npx qiita preview
 npx qiita new article-file-name
 ```
 
-指定した記事を投稿または更新します。
+指定した記事を投稿または更新します（ローカル確認用。通常は git push 経由で公開してください）。
 
 ```bash
 npx qiita publish article-file-name
 ```
 
-変更された記事をまとめて投稿または更新します。
+変更された記事をまとめて投稿または更新します（ローカル確認用。通常は git push 経由で公開してください）。
 
 ```bash
 npx qiita publish --all
@@ -63,3 +63,4 @@ QIITA_TOKEN
 - 記事ファイルは `public/*.md` に保存されます。
 - `public/.remote/` は Qiita CLI が生成する比較用データで、Git 管理からは除外しています。
 - Markdown ファイルを削除しても、Qiita 上の記事は削除されません。記事の削除は Qiita 側で行います。
+- 記事が公開されると Qiita 側で `updated_at` が更新されます。Actions 経由で公開した後は必ず `npx qiita pull` → `git pull` でローカルを同期してください。同期しないと次回 push 時に衝突する可能性があります。
