@@ -5,7 +5,7 @@ tags:
   - MCP
   - IBMBob
 private: false
-updated_at: '2026-05-14T10:40:59+09:00'
+updated_at: '2026-05-14T19:40:16+09:00'
 id: 3ff5cc91f5cd73eeccd3
 organization_url_name: ibm
 slide: false
