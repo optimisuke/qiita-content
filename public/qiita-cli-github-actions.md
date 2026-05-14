@@ -1,5 +1,5 @@
 ---
-title: Qiita CLI + GitHub Actions で記事を Git 管理する
+title: Zenn と同じ感覚で Qiita 記事を Git 管理する
 tags:
   - Qiita
   - GitHubActions
@@ -25,8 +25,8 @@ Zenn は GitHub で記事を管理していて、ローカルのエディタで�
 同じように Zenn は GitHub 管理してるけど Qiita はブラウザで書いてる、という人の参考になれば。
 
 参考:
-- https://github.com/increments/qiita-cli
-- https://qiita.com/Qiita/items/32c79014509987541130
+https://github.com/increments/qiita-cli
+https://qiita.com/Qiita/items/32c79014509987541130
 
 # Qiita CLI とは
 
