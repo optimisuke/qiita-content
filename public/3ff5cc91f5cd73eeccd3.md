@@ -68,7 +68,7 @@ echo $MONDAY_API_TOKEN
 
 ### 3. IBM Bob を完全再起動する
 
-ここが地味に重要です。
+ここが地味に重要です。最初、「Reload Window」を何度やっても環境変数が読まれなくてしばらくハマりました。
 
 **IBM Bob の「Reload Window」では環境変数が反映されません。**
 
