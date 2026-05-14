@@ -106,13 +106,13 @@ gh secret set QIITA_TOKEN --repo <your-repo>
 
 ローカルから直接 publish すると、Git 管理の状態と Qiita 上の状態がずれる場面が出てきます。Actions 経由に統一しておくほうがシンプルです。
 
-## 公開後は git pull を忘れずに（たぶん）
+## 公開後は git pull を忘れずに
 
-記事が公開されると、Qiita 側で `updated_at` が更新されるらしいです。
+記事が公開されると、Qiita 側で `updated_at` が更新されます。また新規記事の場合は `id` も採番されます。
 
-そうなると push して Actions が動いたあと、ローカルのファイルには `updated_at: ''` のままになるので、次に変更して push しようとすると衝突しそうです。
+Actions はその内容を front matter に反映して、自動でコミット・push し返してくれます。なのでローカルは `git pull` するだけで同期できます。
 
-この記事自体を公開して確認するつもりですが、一応 `npx qiita pull` → `git pull` でローカルを同期しておくのが安全そうです。
+この仕組みを知らずに次の編集をしてしまうと、次回 push 時に衝突します。この記事を公開したときに実際に確認できました。
 
 # おわりに
 
