@@ -5,8 +5,9 @@ tags:
   - AI
   - IBM
   - Playwright
+  - IBMBob
 private: false
-updated_at: '2026-05-29T23:28:38+09:00'
+updated_at: "2026-05-29T23:28:38+09:00"
 id: 3f551cc6f4f2c880c222
 organization_url_name: ibm
 slide: false
