@@ -1,13 +1,13 @@
 ---
 title: Playwright で字幕付きのデモ動画を、動画編集なしで撮る
 tags:
-  - Playwright
   - 動画
   - AI
   - IBM
+  - Playwright
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-05-29T23:28:38+09:00'
+id: 3f551cc6f4f2c880c222
 organization_url_name: ibm
 slide: false
 ignorePublish: false
