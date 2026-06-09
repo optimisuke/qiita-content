@@ -6,7 +6,7 @@ tags:
   - ClaudeCode
   - Codex
 private: false
-updated_at: ''
+updated_at: ""
 id: null
 organization_url_name: ibm
 slide: false
@@ -21,7 +21,7 @@ AI Agent 向けの Skill を、チームやプロジェクトで共有しやす�
 
 `npx skills` は、Skill を GitHub repo や別フォルダから取得して、各 Agent の skills フォルダへ配置する CLI です。
 
-結論として、GitHub Enterprise の repository からも Skill を取得できました。社内で Skill を共有する用途でも、かなり試しやすそうです。
+結論、GitHub Enterprise の repository からも Skill を取得できました。社内で Skill を共有する用途でも、かなり使えそうです。
 
 検証対象の Agent は主に IBM Bob / Claude Code / Codex です。IBM Bob は、社内で使っている AI Agent のひとつです。
 
@@ -37,11 +37,11 @@ Skill を使い始めると、以下の管理がだんだんめんどくさく�
 - プロジェクト別管理
 - Agent 別管理
 
-便利な Skill を作っても、自分の `~/.agents/skills` だけに閉じていると、結局その知見は自分の環境から出ていきません。
+また、便利な Skill を作っても、自分の `~/.agents/skills` だけに閉じていると、結局その知見は自分の環境から出ていきません。
 
 せっかく暗黙知を `SKILL.md` として形式知にしても、共有・更新・削除の運用がないと、チームやプロジェクトで再利用しにくいままです。
 
-`npx skills` で、GitHub Enterprise / GitHub public repo / 別フォルダにある Skill を、project scope または global scope の skills フォルダへ配置できるかを確認しました。
+これらの課題を解決するために、`npx skills` で、GitHub Enterprise / GitHub public repo / 別フォルダにある Skill を、project scope または global scope の skills フォルダへ配置できるかを確認しました。
 
 # Skill repo の構成
 
@@ -89,7 +89,7 @@ Agent 名は CLI 側の対応状況や環境によって変わる可能性があ
 
 - GitHub Enterprise の repository URL から Skill を取得できた
 - `--skill` で特定 Skill だけ取得できた
-- `-a bob` / `-a codex` で対象 Agent を切り替えられた
+- `-a bob` / `-a codex` で対象 Agent を切り替えられた（入れるフォルダが変わるだけですが）
 - global install / remove は動作した
 - 同じ Skill 資産を複数 Agent から参照する構成にできそうだった
 
@@ -107,9 +107,7 @@ GitHub Enterprise の private repository から取得できたのが、一番大
 
 `add` / `remove` は使いやすかった一方で、`update` はまだ注意が必要でした。
 
-自分の環境では、`npx skills update` が install 時の `--agent` 指定をそのまま保持せず、複数 Agent が検出される環境で想定外の Agent まで巻き込むような挙動がありました。
-
-当面は `update` よりも、`add` を再実行して上書きする方が安全そうです。
+自分の環境では、`npx skills update` があやしい挙動をしてました。issues にもいくつか `update` まわりのものがありました。当面は `update` よりも、`add` を再実行して上書きする方が安全そうです。
 
 ```bash
 npx skills add <repo-url> --skill hello-skill -g -a bob -y
