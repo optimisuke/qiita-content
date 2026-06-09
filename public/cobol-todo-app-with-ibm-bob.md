@@ -9,7 +9,7 @@ tags:
 private: false
 updated_at: '2026-06-05T22:51:49+09:00'
 id: f9e62f4ce988bf71b016
-organization_url_name: null
+organization_url_name: ibm
 slide: false
 ignorePublish: false
 ---

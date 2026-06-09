@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780" role="img" aria-labelledby="title desc">
+  <title id="title">npx skills による Skill 共有と配置の概要</title>
+  <desc id="desc">GitHub Enterprise、GitHub public repository、別フォルダの Skill から npx skills を通じて project scope と global scope の Agent 別 skills フォルダへ配置し、add、remove、update、list で管理する流れ。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7fbff"/>
+      <stop offset="58%" stop-color="#eef7f3"/>
+      <stop offset="100%" stop-color="#fff7e8"/>
+    </linearGradient>
+    <linearGradient id="source" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e9f2ff"/>
+      <stop offset="100%" stop-color="#d7e8ff"/>
+    </linearGradient>
+    <linearGradient id="cli" x1="0" x2="1">
+      <stop offset="0%" stop-color="#17324d"/>
+      <stop offset="100%" stop-color="#245f73"/>
+    </linearGradient>
+    <linearGradient id="project" x1="0" x2="1">
+      <stop offset="0%" stop-color="#eaf8ef"/>
+      <stop offset="100%" stop-color="#d6f0df"/>
+    </linearGradient>
+    <linearGradient id="global" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff3dc"/>
+      <stop offset="100%" stop-color="#ffe2aa"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#193142" flood-opacity="0.15"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#315366"/>
+    </marker>
+    <style>
+      .label { font-family: sans-serif; fill: #18313f; }
+      .title { font-size: 28px; font-weight: 750; }
+      .section { font-size: 19px; font-weight: 750; }
+      .body { font-size: 15px; font-weight: 500; }
+      .small { font-size: 13px; fill: #48616d; }
+      .code { font-family: monospace; font-size: 13px; fill: #24414f; }
+      .light { fill: #ffffff; }
+      .muted-light { fill: #e9fbff; }
+      .box { stroke: rgba(24,49,63,0.14); stroke-width: 1.2; filter: url(#shadow); }
+      .line { stroke: #315366; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+      .soft-line { stroke: #7a9099; stroke-width: 2; stroke-dasharray: 6 7; fill: none; marker-end: url(#arrow); }
+      .pill { fill: rgba(255,255,255,0.72); stroke: rgba(24,49,63,0.14); stroke-width: 1; }
+      .tag { fill: rgba(255,255,255,0.78); stroke: rgba(24,49,63,0.08); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect width="1100" height="780" fill="url(#bg)"/>
+  <circle cx="108" cy="95" r="92" fill="#b9d9ff" opacity="0.25"/>
+  <circle cx="990" cy="610" r="136" fill="#ffd28a" opacity="0.25"/>
+  <circle cx="535" cy="720" r="160" fill="#a6dfbe" opacity="0.18"/>
+
+  <text x="52" y="58" class="label title">Skill を GitHub / 別フォルダから取得し、Agent の skills フォルダへ配置する</text>
+  <text x="54" y="86" class="label body">GitHub Enterprise、GitHub public repository、別フォルダの Skill を `npx skills` で追加・削除・更新・一覧管理する。</text>
+
+  <g transform="translate(52 118)">
+    <rect class="box" width="468" height="86" rx="20" fill="#ffffff" opacity="0.82"/>
+    <text x="24" y="32" class="label section">課題</text>
+    <text x="88" y="30" class="label body">1. チーム共有・2. プロジェクト別管理・</text>
+    <text x="88" y="55" class="label body">3. Agent 別管理が煩雑</text>
+  </g>
+
+  <path d="M525 161 C540 161 550 161 564 161" class="soft-line"/>
+
+  <g transform="translate(570 118)">
+    <rect class="box" width="478" height="86" rx="20" fill="#ffffff" opacity="0.82"/>
+    <text x="24" y="32" class="label section">解決</text>
+    <text x="88" y="30" class="label body">GitHub / 別フォルダから取得し、</text>
+    <text x="88" y="55" class="label body">project / global に配置</text>
+  </g>
+
+  <g transform="translate(52 245)">
+    <rect class="box" width="282" height="314" rx="24" fill="url(#source)"/>
+    <text x="28" y="42" class="label section">Skill 提供元</text>
+
+    <rect x="24" y="68" width="234" height="58" rx="16" fill="#ffffff" opacity="0.88"/>
+    <text x="42" y="92" class="label body">GitHub Enterprise</text>
+    <text x="42" y="114" class="label code">github.enterprise-example.com/org/skills</text>
+
+    <rect x="24" y="142" width="234" height="58" rx="16" fill="#ffffff" opacity="0.88"/>
+    <text x="42" y="166" class="label body">GitHub public repo</text>
+    <text x="42" y="188" class="label code">github.com/org/skills</text>
+
+    <rect x="24" y="216" width="234" height="58" rx="16" fill="#ffffff" opacity="0.88"/>
+    <text x="42" y="240" class="label body">別フォルダの Skill</text>
+    <text x="42" y="262" class="label code">./skills/hello-skill</text>
+
+  </g>
+
+  <g transform="translate(52 585)">
+    <rect class="box" width="404" height="124" rx="20" fill="#ffffff" opacity="0.76"/>
+    <text x="24" y="30" class="label section">コマンド例</text>
+    <text x="24" y="56" class="label code">npx skills add &lt;url&gt; --skill x -g -a bob</text>
+    <text x="24" y="80" class="label code">npx skills list -g -a bob</text>
+    <text x="24" y="102" class="label code">npx skills remove x -g -a bob</text>
+  </g>
+
+  <g transform="translate(400 346)">
+    <rect class="box" width="304" height="206" rx="30" fill="url(#cli)"/>
+    <text x="42" y="54" class="label section light">npx skills</text>
+    <text x="42" y="86" class="label body muted-light">Skill を取得して配置先へ展開</text>
+
+    <rect x="34" y="116" width="236" height="36" rx="18" class="pill"/>
+    <text x="58" y="139" class="label code">add / remove / list</text>
+
+    <rect x="34" y="162" width="236" height="36" rx="18" class="pill"/>
+    <text x="58" y="185" class="label code">check / update</text>
+  </g>
+
+  <path d="M334 415 C358 415 372 415 392 415" class="line"/>
+  <rect x="328" y="338" width="190" height="30" rx="15" class="tag"/>
+  <text x="423" y="358" class="label small" text-anchor="middle">GitHub URL / folder path</text>
+
+  <g transform="translate(766 246)">
+    <rect class="box" width="286" height="162" rx="24" fill="url(#project)"/>
+    <text x="28" y="42" class="label section">Project scope</text>
+    <text x="28" y="70" class="label body">プロジェクト単位で共有</text>
+    <rect x="24" y="94" width="238" height="42" rx="12" fill="#ffffff" opacity="0.86"/>
+    <text x="42" y="120" class="label code">./.agents/skills</text>
+  </g>
+
+  <g transform="translate(766 460)">
+    <rect class="box" width="286" height="230" rx="24" fill="url(#global)"/>
+    <text x="28" y="42" class="label section">Global scope</text>
+    <text x="28" y="70" class="label body">複数 Agent から利用</text>
+    <rect x="24" y="94" width="238" height="34" rx="12" fill="#ffffff" opacity="0.84"/>
+    <text x="42" y="116" class="label code">Codex skills</text>
+    <rect x="24" y="138" width="238" height="34" rx="12" fill="#ffffff" opacity="0.84"/>
+    <text x="42" y="160" class="label code">Claude Code skills</text>
+    <rect x="24" y="182" width="238" height="34" rx="12" fill="#ffffff" opacity="0.84"/>
+    <text x="42" y="204" class="label code">IBM Bob skills</text>
+  </g>
+
+  <path d="M704 402 C728 364 738 342 758 327" class="line"/>
+  <rect x="654" y="356" width="134" height="30" rx="15" class="tag"/>
+  <text x="721" y="376" class="label small" text-anchor="middle">project install</text>
+
+  <path d="M704 468 C728 505 738 532 758 558" class="line"/>
+  <rect x="654" y="504" width="130" height="30" rx="15" class="tag"/>
+  <text x="719" y="524" class="label small" text-anchor="middle">global install</text>
+
+  <g transform="translate(600 718)">
+    <rect width="432" height="34" rx="17" fill="#ffffff" opacity="0.48" stroke="rgba(24,49,63,0.08)"/>
+    <text x="18" y="22" class="label small">project scope と global scope はそれぞれ lock file に記録される。</text>
+  </g>
+</svg>
