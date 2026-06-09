@@ -1,13 +1,13 @@
 ---
 title: npx skills は GitHub Enterprise でも使えそうだった
 tags:
-  - AIエージェント
   - GitHub
+  - codex
+  - AIエージェント
   - ClaudeCode
-  - Codex
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-09T20:17:30+09:00'
+id: eb6d83dcb75642b444e2
 organization_url_name: ibm
 slide: false
 ignorePublish: false
