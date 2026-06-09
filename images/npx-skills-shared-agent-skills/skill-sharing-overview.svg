@@ -76,7 +76,7 @@
 
     <rect x="24" y="68" width="234" height="58" rx="16" fill="#ffffff" opacity="0.88"/>
     <text x="42" y="92" class="label body">GitHub Enterprise</text>
-    <text x="42" y="114" class="label code">github.enterprise-example.com/org/skills</text>
+    <text x="42" y="114" class="label code">github.hoge.com/org/skills</text>
 
     <rect x="24" y="142" width="234" height="58" rx="16" fill="#ffffff" opacity="0.88"/>
     <text x="42" y="166" class="label body">GitHub public repo</text>

@@ -27,7 +27,7 @@ AI Agent 向けの Skill を、チームやプロジェクトで共有しやす�
 
 今回確認した流れを図にすると、だいたい以下のようなイメージです。
 
-![npx skills による Skill 共有と配置の概要](/images/npx-skills-shared-agent-skills/skill-sharing-overview.svg)
+![skill-sharing-overview.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/184221/5b02e092-5358-4d7c-9bbb-71fd078c5fc3.png)
 
 # 何に困っていたか
 
