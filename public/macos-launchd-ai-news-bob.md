@@ -6,9 +6,9 @@ tags:
   - launchd
   - AI
 private: false
-updated_at: '2026-06-15T10:10:25+09:00'
+updated_at: "2026-06-15T10:10:25+09:00"
 id: 4f75030b85374cdfcb35
-organization_url_name: null
+organization_url_name: ibm
 slide: false
 ignorePublish: false
 ---
