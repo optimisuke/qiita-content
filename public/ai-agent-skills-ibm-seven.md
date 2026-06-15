@@ -2,12 +2,12 @@
 title: AIエージェント構築に必要なスキルをIBMの7つから整理した
 tags:
   - AI
-  - LLM
-  - Agent
   - IBM
+  - Agent
+  - LLM
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-15T15:40:35+09:00'
+id: ddb236ce57b734b7758d
 organization_url_name: ibm
 slide: false
 ignorePublish: false
