@@ -19,7 +19,7 @@ AI エージェントを作る話を追っていると、プロンプト、RAG�
 
 自分も「結局どこからどこまで学べばいいんだろう」と混乱しています。そこで、IBM の動画 [The 7 Skills You Need to Build AI Agents](https://www.youtube.com/watch?v=mtiOK2QG9Q0) を入口にして、AI エージェント構築に必要なスキルを整理してみます。
 
-https://www.youtube.com/watch?v=mtiOK2QG9Q0
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mtiOK2QG9Q0?si=mqHiZ-Tmw7ke5BYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ただ、IBM の7つだけを唯一の地図として見ると、少し抜ける視点もありそうです。この記事では IBM の7スキルを土台にしつつ、Karpathy、Andrew Ng、Anthropic、OpenAI、Google、Chip Huyen などの一次情報と見比べます。
 
