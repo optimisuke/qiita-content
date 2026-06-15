@@ -6,7 +6,7 @@ tags:
   - Agent
   - LLM
 private: false
-updated_at: '2026-06-15T15:45:17+09:00'
+updated_at: '2026-06-15T15:47:13+09:00'
 id: ddb236ce57b734b7758d
 organization_url_name: ibm
 slide: false
