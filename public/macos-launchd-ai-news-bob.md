@@ -2,12 +2,12 @@
 title: SNSをだらだら見ないためにlaunchdでAIニュース要約を毎朝自動生成する
 tags:
   - macOS
+  - 自動化
   - launchd
   - AI
-  - 自動化
 private: false
-updated_at: ''
-id: null
+updated_at: '2026-06-15T10:10:25+09:00'
+id: 4f75030b85374cdfcb35
 organization_url_name: null
 slide: false
 ignorePublish: false
