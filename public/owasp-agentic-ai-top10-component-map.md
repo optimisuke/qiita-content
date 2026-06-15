@@ -1,14 +1,14 @@
 ---
 title: OWASP Agentic AI Top 10 を Agent の構成要素で整理する
 tags:
-  - OWASP
   - Security
   - AI
-  - LLM
+  - owasp
   - Agent
+  - LLM
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-15T17:26:05+09:00'
+id: 535af37a32a9fd850924
 organization_url_name: ibm
 slide: false
 ignorePublish: false
