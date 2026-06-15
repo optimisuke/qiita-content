@@ -2,11 +2,11 @@
 title: 「+AI」から「AI+ (AIファースト)」へ
 tags:
   - AI
-  - 組織
   - DX
+  - 組織
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-15T10:59:47+09:00'
+id: 3c1ecdf1690de5b609fb
 organization_url_name: null
 slide: false
 ignorePublish: false
