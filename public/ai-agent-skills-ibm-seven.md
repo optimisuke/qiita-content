@@ -1,12 +1,12 @@
 ---
-title: AIエージェント構築に必要なスキルをIBMのYouTubeをもとに整理した
+title: AIエージェント構築に必要な7つのスキル + アルファ
 tags:
   - AI
   - IBM
   - Agent
   - LLM
 private: false
-updated_at: '2026-06-15T15:47:13+09:00'
+updated_at: "2026-06-15T15:47:13+09:00"
 id: ddb236ce57b734b7758d
 organization_url_name: ibm
 slide: false
