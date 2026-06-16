@@ -1,14 +1,14 @@
 ---
 title: Claude Fable 5の停止騒動で「ソブリン」が気になったので整理した
 tags:
-  - AI
-  - Cloud
   - Security
-  - Governance
+  - Cloud
+  - AI
   - IBM
+  - governance
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-16T17:50:57+09:00'
+id: 2c29707c278cf9df0648
 organization_url_name: ibm
 slide: false
 ignorePublish: false
