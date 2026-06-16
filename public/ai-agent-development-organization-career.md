@@ -1,13 +1,13 @@
 ---
 title: AIエージェントは開発組織をどう変えるのか、調査結果から整理した
 tags:
-  - AI
-  - 開発組織
   - アジャイル
+  - AI
   - キャリア
+  - 開発組織
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-16T22:00:17+09:00'
+id: 5f52683bb775b23c8e31
 organization_url_name: ibm
 slide: false
 ignorePublish: false
