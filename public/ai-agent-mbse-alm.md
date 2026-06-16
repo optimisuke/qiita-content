@@ -1,14 +1,14 @@
 ---
 title: AIエージェント時代に「MBSE (モデルベースシステムズエンジニアリング) と アプリケーションライフサイクル管理基盤」は生き残るか
 tags:
-  - AIエージェント
-  - MBSE
-  - SysML
   - ALM
+  - SysML
+  - MBSE
   - SDV
+  - AIエージェント
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-16T13:09:32+09:00'
+id: 724ba0805c887a42d9ab
 organization_url_name: null
 slide: false
 ignorePublish: false
