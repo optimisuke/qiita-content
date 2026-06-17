@@ -6,7 +6,7 @@ tags:
   - キャリア
   - 開発組織
 private: false
-updated_at: '2026-06-16T22:00:17+09:00'
+updated_at: "2026-06-16T22:00:17+09:00"
 id: 5f52683bb775b23c8e31
 organization_url_name: ibm
 slide: false
@@ -20,6 +20,8 @@ Claude Code、Codex、Devin などの AI コーディングエージェントを
 一方で、「AI があるから開発組織は小さくなる」「エンジニアは不要になる」といった単純な話には見えません。実装が速くなるほど、何を作るべきか、どう検証するか、誰が責任を持つかと考えることが増えているようにも見えます。
 
 自分のキャリアを考える上でも、あるべき開発組織を考える上でも、AIエージェントが開発組織をどう変えるのかがかなり重要だと思ったので、公開されている調査や事例をもとに整理しました。
+
+![overview.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/184221/a5d9ea50-09b0-4ced-9757-5775dfbe09cc.png)
 
 # 先に結論
 
