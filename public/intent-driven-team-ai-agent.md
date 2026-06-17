@@ -1,14 +1,14 @@
 ---
 title: AIエージェント時代、なぜIntent（意図）が重要になるのか
 tags:
-  - AI
   - アジャイル
+  - AI
+  - scrum
   - 要件定義
   - LLM
-  - Scrum
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-17T10:53:01+09:00'
+id: 0ea2c72b6fd866505a56
 organization_url_name: null
 slide: false
 ignorePublish: false
