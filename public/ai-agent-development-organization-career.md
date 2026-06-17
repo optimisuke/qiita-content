@@ -6,7 +6,7 @@ tags:
   - キャリア
   - 開発組織
 private: false
-updated_at: "2026-06-16T22:00:17+09:00"
+updated_at: '2026-06-17T09:16:47+09:00'
 id: 5f52683bb775b23c8e31
 organization_url_name: ibm
 slide: false
