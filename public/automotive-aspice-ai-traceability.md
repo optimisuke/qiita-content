@@ -1,14 +1,14 @@
 ---
 title: 自動車業界に学ぶ、AI成果物との向き合い方
 tags:
-  - AI
   - 設計
+  - AI
   - トレーサビリティ
-  - ASPICE
   - AIエージェント
+  - ASPICE
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-06-19T00:06:32+09:00'
+id: 7ab743aa92dcd99e39a3
 organization_url_name: ibm
 slide: false
 ignorePublish: false
