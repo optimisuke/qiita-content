@@ -1,14 +1,14 @@
 ---
 title: 「AIでレビューは不要になる」に感じたモヤモヤをVerificationとValidationで整理したメモ
 tags:
-  - AI
-  - 品質保証
   - レビュー
+  - AI
   - scrum
+  - 品質保証
   - LLM
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-01T10:32:47+09:00'
+id: 30d297062b8665f4e7b8
 organization_url_name: ibm
 slide: false
 ignorePublish: false
