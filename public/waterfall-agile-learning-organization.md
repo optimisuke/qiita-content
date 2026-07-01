@@ -1,5 +1,5 @@
 ---
-title: ウォーターフォールとアジャイル。その違いをようやく言葉にできた
+title: ウォーターフォールとアジャイル、その違いをようやく言葉にできた
 tags:
   - アジャイル
   - ウォーターフォール
@@ -7,7 +7,7 @@ tags:
   - マネジメント
   - 組織
 private: false
-updated_at: '2026-07-01T14:38:20+09:00'
+updated_at: "2026-07-01T14:38:20+09:00"
 id: 3801a11d72bac62e4d52
 organization_url_name: ibm
 slide: false
