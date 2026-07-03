@@ -6,11 +6,13 @@ tags:
   - Agent
   - LLM
 private: false
-updated_at: '2026-06-16T13:10:59+09:00'
+updated_at: '2026-07-04T07:57:09+09:00'
 id: ddb236ce57b734b7758d
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに

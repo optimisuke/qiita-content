@@ -7,11 +7,13 @@ tags:
   - 品質保証
   - LLM
 private: false
-updated_at: '2026-07-01T10:32:47+09:00'
+updated_at: '2026-07-04T07:57:09+09:00'
 id: 30d297062b8665f4e7b8
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに

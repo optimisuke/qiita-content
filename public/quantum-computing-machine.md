@@ -1,17 +1,19 @@
 ---
 title: 量子コンピュータで迷子にならないために 機械編
 tags:
-  - 量子コンピュータ
-  - 量子計算
-  - QISKIT
-  - 量子コンピューター
   - 物理
+  - 量子コンピュータ
+  - 量子コンピューター
+  - QISKIT
+  - 量子計算
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-04T07:57:09+09:00'
+id: 10b4aee1da71497da302
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに

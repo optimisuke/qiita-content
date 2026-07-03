@@ -7,11 +7,13 @@ tags:
   - マネジメント
   - 組織
 private: false
-updated_at: '2026-07-01T17:09:19+09:00'
+updated_at: '2026-07-04T07:57:09+09:00'
 id: 3801a11d72bac62e4d52
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 ![overview_waterfall.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/184221/02de6785-c880-452b-9a51-3221f6a27e9d.png)

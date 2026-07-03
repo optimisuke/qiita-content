@@ -7,7 +7,7 @@ tags:
   - QISKIT
   - 量子計算
 private: false
-updated_at: '2026-07-04T07:31:47+09:00'
+updated_at: '2026-07-04T07:57:09+09:00'
 id: b908c008d596d8c42b00
 organization_url_name: ibm
 slide: false

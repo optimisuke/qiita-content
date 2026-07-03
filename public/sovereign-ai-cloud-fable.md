@@ -7,11 +7,13 @@ tags:
   - IBM
   - governance
 private: false
-updated_at: '2026-06-16T17:50:57+09:00'
+updated_at: '2026-07-04T07:57:09+09:00'
 id: 2c29707c278cf9df0648
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに
