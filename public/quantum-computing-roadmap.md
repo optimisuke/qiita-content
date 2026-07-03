@@ -21,7 +21,7 @@ agreed_posting_campaign_term: false
 みなさん、量子コンピュータちゃんと理解してますか？わたしはしてません！！
 本シリーズ（予定）では、量子コンピュータがわからないなりに勉強してきたので、その理解をなんとか整理していこうと思います！
 
-![quantum.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/184221/9937ece1-0d93-4922-a7e8-44cdb8a4bdff.png)
+![quantum.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/184221/2c9bfd67-4e16-4118-a29e-a590bd10d42a.png)
 
 さて、量子コンピュータですが、ちゃんと理解したいと思って調べ始めると、わりとすぐに迷子になります。そして勉強を続けても、しょっちゅう迷子になります。
 
