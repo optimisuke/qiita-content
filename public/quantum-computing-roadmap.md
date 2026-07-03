@@ -2,16 +2,18 @@
 title: 量子コンピュータを完全に理解したい人のためのロードマップ
 tags:
   - 量子コンピュータ
+  - QISKIT
   - 量子計算
-  - Qiskit
-  - ポスト量子暗号
   - 技術戦略
+  - ポスト量子暗号
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-03T19:53:37+09:00'
+id: a2463fab85ee9778847c
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに
