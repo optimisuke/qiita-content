@@ -7,12 +7,12 @@ tags:
   - 要件定義
   - LLM
 private: false
-updated_at: '2026-07-04T07:57:09+09:00'
+updated_at: "2026-07-04T07:57:09+09:00"
 id: 0ea2c72b6fd866505a56
 organization_url_name: null
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
+
 agreed_posting_campaign_term: false
 ---
 
