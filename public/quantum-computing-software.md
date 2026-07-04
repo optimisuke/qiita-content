@@ -7,8 +7,8 @@ tags:
   - 量子計算
   - 量子ソフトウェア
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-04T17:50:59+09:00'
+id: 0f15c893b6c7ebbd8ba9
 organization_url_name: ibm
 slide: false
 ignorePublish: false
