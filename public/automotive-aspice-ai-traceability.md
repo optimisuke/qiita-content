@@ -7,13 +7,13 @@ tags:
   - AIエージェント
   - ASPICE
 private: false
-updated_at: "2026-07-04T07:57:09+09:00"
+updated_at: '2026-07-04T11:48:20+09:00'
 id: 7ab743aa92dcd99e39a3
 organization_url_name: ibm
 slide: false
 ignorePublish: false
-
-agreed_posting_campaign_term: true
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに

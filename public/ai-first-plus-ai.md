@@ -5,13 +5,13 @@ tags:
   - DX
   - 組織
 private: false
-updated_at: "2026-07-04T07:57:09+09:00"
+updated_at: '2026-07-04T11:48:20+09:00'
 id: 3c1ecdf1690de5b609fb
 organization_url_name: ibm
 slide: false
 ignorePublish: false
-
-agreed_posting_campaign_term: true
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに

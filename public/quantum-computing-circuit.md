@@ -3,15 +3,17 @@ title: 量子コンピュータで迷子にならないために 量子回路編
 tags:
   - 量子コンピュータ
   - 量子コンピューター
-  - 量子回路
   - QISKIT
   - 量子計算
+  - 量子回路
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-04T11:48:21+09:00'
+id: 9e5a9c0d1480ddad8eaf
 organization_url_name: ibm
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 # はじめに
