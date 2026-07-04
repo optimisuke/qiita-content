@@ -7,7 +7,7 @@ tags:
   - AI
   - IBM
 private: false
-updated_at: "2026-07-04T11:48:21+09:00"
+updated_at: '2026-07-04T11:51:50+09:00'
 id: f9e62f4ce988bf71b016
 organization_url_name: ibm
 slide: false
