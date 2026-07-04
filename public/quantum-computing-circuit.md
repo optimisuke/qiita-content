@@ -7,7 +7,7 @@ tags:
   - 量子計算
   - 量子回路
 private: false
-updated_at: "2026-07-04T11:51:50+09:00"
+updated_at: '2026-07-04T16:15:06+09:00'
 id: 9e5a9c0d1480ddad8eaf
 organization_url_name: ibm
 slide: false
