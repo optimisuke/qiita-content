@@ -13,7 +13,7 @@ organization_url_name: ibm
 slide: false
 ignorePublish: false
 
-agreed_posting_campaign_term: false
+agreed_posting_campaign_term: true
 ---
 
 # はじめに
