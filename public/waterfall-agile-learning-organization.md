@@ -13,7 +13,7 @@ organization_url_name: ibm
 slide: false
 ignorePublish: false
 posting_campaign_uuid: 783b7a849caf11eefd91
-agreed_posting_campaign_term: false
+agreed_posting_campaign_term: true
 ---
 
 ![overview_waterfall.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/184221/02de6785-c880-452b-9a51-3221f6a27e9d.png)
