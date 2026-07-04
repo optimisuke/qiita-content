@@ -142,8 +142,8 @@ PoC の目的も、「今すぐ量子優位を実証する」より、ワーク�
 | 第2回 | [機械編](https://qiita.com/optimisuke/items/10b4aee1da71497da302)             | qubit、物理方式、誤り訂正をどう見るか  |
 | 第3回 | [量子回路編](https://qiita.com/optimisuke/items/9e5a9c0d1480ddad8eaf)         | 状態、ゲート、測定をどう分けるか       |
 | 第4回 | [量子アルゴリズム編](https://qiita.com/optimisuke/items/6d351c55e6a76d3fdc17) | Shor や Grover は何をしているのか      |
-| 第5回 | ソフトウェア編                                                                | Qiskit などのスタックでどう動かすのか  |
-| 第6回 | ビジネス編                                                                    | PoC、PQC、材料探索、時間軸をどう見るか |
+| 第5回 | [ソフトウェア編](https://qiita.com/optimisuke/items/0f15c893b6c7ebbd8ba9)     | Qiskit などのスタックでどう動かすのか  |
+| 第6回 | [ビジネス編](https://qiita.com/optimisuke/items/02111202d45a66276a68)         | PoC、PQC、材料探索、時間軸をどう見るか |
 
 # おわりに
 
