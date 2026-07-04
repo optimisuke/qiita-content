@@ -3,12 +3,12 @@ title: 量子コンピュータで迷子にならないために ビジネス編
 tags:
   - 量子コンピュータ
   - 量子コンピューター
-  - ポスト量子暗号
-  - 技術戦略
   - 量子計算
+  - 技術戦略
+  - ポスト量子暗号
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-04T18:51:30+09:00'
+id: 02111202d45a66276a68
 organization_url_name: ibm
 slide: false
 ignorePublish: false
