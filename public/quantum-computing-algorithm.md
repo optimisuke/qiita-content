@@ -7,8 +7,8 @@ tags:
   - 量子計算
   - 量子アルゴリズム
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-04T15:18:48+09:00'
+id: 6d351c55e6a76d3fdc17
 organization_url_name: ibm
 slide: false
 ignorePublish: false
