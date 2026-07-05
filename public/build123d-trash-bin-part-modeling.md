@@ -1,14 +1,14 @@
 ---
 title: 寸法を伝えるだけで IBM Bob が壊れたゴミ箱のパーツをモデリングしてくれた
 tags:
-  - 3Dプリンター
-  - build123d
-  - IBMBob
   - Python
   - CAD
+  - 3Dプリンター
+  - IBMBob
+  - build123d
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-05T20:46:09+09:00'
+id: 5d04b8ccd704e88f978e
 organization_url_name: ibm
 slide: false
 ignorePublish: false
