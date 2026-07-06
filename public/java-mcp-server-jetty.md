@@ -1,5 +1,5 @@
 ---
-title: Java で MCP サーバーを Jetty で動かす
+title: MCP サーバーを Java Jetty で動かす
 tags:
   - Java
   - jetty
