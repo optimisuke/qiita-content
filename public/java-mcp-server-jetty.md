@@ -6,7 +6,7 @@ tags:
   - AI
   - MCP
 private: false
-updated_at: '2026-07-06T13:53:15+09:00'
+updated_at: '2026-07-06T14:58:47+09:00'
 id: 8373ec86549a71333ef9
 organization_url_name: null
 slide: false
