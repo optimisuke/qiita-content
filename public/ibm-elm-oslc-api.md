@@ -2,13 +2,13 @@
 title: IBM ELM を OSLC API で操作してみた
 tags:
   - Java
-  - OSLC
+  - Elm
   - IBM
-  - ELM
-  - DOORSNext
+  - DoorsNext
+  - OSLC
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-06T13:53:15+09:00'
+id: 6be47adb0d3c489fb9df
 organization_url_name: ibm
 slide: false
 ignorePublish: false

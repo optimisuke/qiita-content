@@ -2,12 +2,12 @@
 title: Java で MCP サーバーを Jetty で動かす
 tags:
   - Java
-  - MCP
-  - Jetty
+  - jetty
   - AI
+  - MCP
 private: false
-updated_at: ""
-id: null
+updated_at: '2026-07-06T13:53:15+09:00'
+id: 8373ec86549a71333ef9
 organization_url_name: null
 slide: false
 ignorePublish: false
